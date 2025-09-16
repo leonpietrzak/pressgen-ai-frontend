@@ -15,6 +15,8 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        brutalist: "bg-neo-white text-neo-black border-2 border-neo-black hover:translate-x-1 hover:translate-y-1 transition-transform shadow-[5px_5px_0px_0px_theme(colors.neo.black)] hover:shadow-[4px_4px_0px_0px_theme(colors.neo.black)]",
+        accent: "bg-neo-purple text-neo-white border-2 border-neo-black hover:translate-x-1 hover:translate-y-1 transition-transform shadow-[5px_5px_0px_0px_theme(colors.neo.black)] hover:shadow-[4px_4px_0px_0px_theme(colors.neo.black)]",
       },
       size: {
         default: "h-10 px-4 py-2",

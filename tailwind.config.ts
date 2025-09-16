@@ -13,7 +13,16 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif'],
+      },
       colors: {
+        'neo': {
+          'white': 'hsl(var(--neo-white))',
+          'black': 'hsl(var(--neo-black))',
+          'purple': 'hsl(var(--neo-purple))',
+          'gray': 'hsl(var(--neo-gray))',
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
