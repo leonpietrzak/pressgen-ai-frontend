@@ -25,6 +25,10 @@ const MainContent = () => {
             Transcript
           </Button>
         </div>
+
+        <div className="mt-8 max-w-2xl mx-auto h-[500px] border-2 border-neo-black bg-neo-gray p-6 text-left overflow-y-auto rounded-lg">
+          <p className="text-neo-black">Tutaj będzie transkrypcja live.</p>
+        </div>
       </div>
     </main>
   );
