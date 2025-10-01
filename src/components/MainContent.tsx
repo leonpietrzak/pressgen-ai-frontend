@@ -42,7 +42,7 @@ const MainContent = () => {
 
     // Tworzenie nowego połączenia WebSocket
     const ws = new WebSocket(
-      "ws://press-gen-ai-backend-production.up.railway.app/transcribe-live"
+      "wss://press-gen-ai-backend-production.up.railway.app/transcribe-live"
     );
     wsRef.current = ws;
 
